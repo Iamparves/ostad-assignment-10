@@ -7,7 +7,7 @@ const BlogCard = ({ blog }) => {
   return (
     <Link
       href={`/blog/${id}`}
-      className="mx-auto max-w-[380px] bg-white text-center shadow-md transition-shadow duration-300 hover:shadow-sm"
+      className="mx-auto max-w-[380px] bg-white text-center shadow-sm transition-all duration-300 hover:-translate-y-0.5 hover:shadow-md"
     >
       <div className="relative h-48 w-full">
         <Image
