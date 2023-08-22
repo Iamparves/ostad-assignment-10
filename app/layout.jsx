@@ -11,7 +11,7 @@ const josefin = Josefin_Sans({
 const source_serif = Source_Serif_4({
   subsets: ["latin"],
   variable: "--font-source_serif",
-  weight: ["400", "500", "600"],
+  weight: ["400", "500", "600", "700"],
 });
 const siliguri = Hind_Siliguri({
   subsets: ["bengali"],
