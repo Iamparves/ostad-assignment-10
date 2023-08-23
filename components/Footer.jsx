@@ -85,7 +85,7 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <p className="py-5 text-center text-white/80">
+      <p className="pb-5 text-center text-white/80">
         © {new Date().getFullYear()} LuminaLore. All Rights Reserved.
       </p>
     </footer>
