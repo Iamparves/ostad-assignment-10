@@ -37,7 +37,7 @@ const Header = () => {
             {isMenuOpen ? <MdClose /> : <FiMenu />}
           </button>
           <div
-            className={`fixed left-0 top-0 h-screen w-full bg-black/10 ${
+            className={`fixed left-0 top-0 z-[999] h-screen w-full bg-black/10 ${
               !isMenuOpen ? "invisible opacity-0" : ""
             } backdrop-blur-[1px] transition-all duration-300`}
             onClick={closeMenuOnOutsideClick}
@@ -68,7 +68,7 @@ const Header = () => {
             </div>
           </div>
         </div>
-        <div className="hidden items-center gap-4 md:flex">
+        <div className="hidden items-center gap-5 md:flex">
           {links.map((link) => (
             <Link
               href={link.path}

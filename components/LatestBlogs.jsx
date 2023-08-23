@@ -9,16 +9,16 @@ const LatestBlogs = async () => {
     <section className="py-12 md:py-14 lg:py-20" id="blogs">
       <div className="container">
         <div className="mx-auto max-w-3xl text-center font-source_serif text-secondary">
-          <h2 className="mb-4 text-4xl font-bold">
+          <h2 className="mb-4 text-3xl font-bold sm:text-4xl">
             Latest from <span className="text-primary">LuminaLore</span>
           </h2>
-          <p className="text-lg font-medium">
+          <p className="text-base font-medium sm:text-lg">
             Dive into our diverse collection of articles that explore topics
             ranging from philosophy to science, inviting you to ponder, learn,
             and grow.
           </p>
         </div>
-        <div className="mt-8 grid grid-cols-1 gap-5 md:grid-cols-2 lg:grid-cols-3">
+        <div className="mt-10 grid grid-cols-1 gap-5 md:grid-cols-2 lg:grid-cols-3">
           {blogs.map((blog) => (
             <BlogCard blog={blog} key={blog.id} />
           ))}

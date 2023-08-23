@@ -5,3 +5,9 @@
 :root {
   scroll-behavior: smooth;
 }
+
+.footer {
+  background:
+    url(/footer-bg.png) no-repeat center top / cover,
+    linear-gradient(#4b4870, #4b4870);
+}
