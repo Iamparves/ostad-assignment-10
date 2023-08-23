@@ -11,3 +11,9 @@
     url(/footer-bg.png) no-repeat center top / cover,
     linear-gradient(#4b4870, #4b4870);
 }
+
+.contactInfo {
+  background:
+    linear-gradient(hsla(244, 22%, 30%, 0.9), hsla(244, 22%, 25%, 0.8)),
+    url("/contact.jpg") no-repeat center bottom / cover;
+}
