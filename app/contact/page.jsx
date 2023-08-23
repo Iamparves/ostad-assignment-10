@@ -4,8 +4,8 @@ import { TbMailFilled } from "react-icons/tb";
 
 const Page = () => {
   return (
-    <section>
-      <div className="bg-[url('/contact-top.jpg')] bg-cover bg-center bg-no-repeat">
+    <main>
+      <section className="bg-[url('/contact-top.jpg')] bg-cover bg-center bg-no-repeat">
         <div className="bg-black/70 pb-32 pt-20 sm:pb-40 sm:pt-24 md:pb-48 md:pt-32">
           <div className="mx-auto max-w-3xl px-4 text-center font-source_serif text-white">
             <h2 className="mb-3 text-3xl font-bold sm:text-4xl">
@@ -18,8 +18,8 @@ const Page = () => {
             </p>
           </div>
         </div>
-      </div>
-      <div className="container -translate-y-16 sm:-translate-y-20">
+      </section>
+      <section className="container -translate-y-16 sm:-translate-y-20">
         <div className="mx-auto grid max-w-5xl md:grid-cols-[1fr_320px] lg:grid-cols-[1fr_380px]">
           <form className="bg-white px-5 py-7 font-source_serif shadow-sm lg:px-7">
             <h3 className="mb-5 font-josefin text-xl font-bold text-secondary">
@@ -114,8 +114,8 @@ const Page = () => {
             </div>
           </div>
         </div>
-      </div>
-    </section>
+      </section>
+    </main>
   );
 };
 

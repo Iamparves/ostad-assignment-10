@@ -12,20 +12,20 @@ const Subscribe = () => {
               Subscribe to our newsletter and be the first to receive fresh
               insights, exclusive content, and updates from LuminaLore.
             </p>
-            <form className="mx-auto flex max-w-md flex-col gap-3">
+            <form className="mx-auto flex max-w-md flex-col gap-4">
               <input
                 type="text"
                 placeholder="Your Name"
-                className="rounded-md border p-2 text-secondary outline-0"
+                className="rounded-md border p-3 text-secondary outline-0"
               />
               <input
                 type="email"
                 placeholder="Your Email Address"
-                className="rounded-md border p-2 text-secondary outline-0"
+                className="rounded-md border p-3 text-secondary outline-0"
               />
               <button
                 type="submit"
-                className="rounded-full bg-secondary p-2 font-semibold text-white transition-all duration-300 hover:bg-primary"
+                className="rounded-full bg-secondary pb-2.5 pt-3 font-semibold text-white transition-all duration-300 hover:bg-primary"
               >
                 Subscribe
               </button>

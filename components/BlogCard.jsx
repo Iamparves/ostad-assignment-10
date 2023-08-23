@@ -7,7 +7,7 @@ const BlogCard = ({ blog }) => {
   return (
     <Link
       href={`/blog/${id}`}
-      className="mx-auto max-w-[380px] bg-white text-center shadow-sm transition-all duration-300 hover:-translate-y-0.5 hover:shadow-md"
+      className="mx-auto max-w-[380px] bg-white text-center shadow-sm transition-all duration-300 hover:-translate-y-0.5 hover:shadow-md active:shadow-sm"
     >
       <div className="relative h-48 w-full">
         <Image
@@ -19,10 +19,10 @@ const BlogCard = ({ blog }) => {
         />
       </div>
       <div className="space-y-4 p-5">
-        <h2 className="text-secondary-2 font-siliguri font-semibold md:text-lg">
+        <h2 className="font-siliguri font-semibold text-secondary-2 md:text-lg">
           {title}
         </h2>
-        <p className="text-secondary-3 font-siliguri font-medium">{short}</p>
+        <p className="font-siliguri font-medium text-secondary-3">{short}</p>
       </div>
     </Link>
   );
