@@ -102,16 +102,13 @@ const Page = () => {
               <span className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-white/5 text-xl backdrop-blur-sm">
                 <MdLocationOn />
               </span>
-              <span className="break-words">
-                179-1004, Motoyoyogicho, Shibuya-ku, Tokyo
-              </span>
+              <span>179-1004, Motoyoyogicho, Shibuya-ku, Tokyo</span>
             </div>
             <div>
               <iframe
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6482.409515246619!2d139.6802842944576!3d35.671959940360644!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6018f33602a149c3%3A0x1e1617b75f864e86!2sMotoyoyogicho%2C%20Shibuya%20City%2C%20Tokyo%20151-0062%2C%20Japan!5e0!3m2!1sen!2sbd!4v1692797546437!5m2!1sen!2sbd"
                 className="h-60 w-full"
-                allowfullscreen=""
-                loading="lazy"
+                allowfullscreen="false"
                 referrerpolicy="no-referrer-when-downgrade"
               ></iframe>
             </div>

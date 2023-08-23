@@ -12,3 +12,14 @@ export const getBlogs = async (limit) => {
     return err;
   }
 };
+
+export const getBlogDetails = async (blogId) => {
+  try {
+    const res = await fetch(`${baseUri}/post-details/${blogId}`);
+    const data = await res.json();
+
+    return data.postDetails;
+  } catch (err) {
+    return err;
+  }
+};
